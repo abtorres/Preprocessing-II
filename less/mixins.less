@@ -1,1 +1,15 @@
 // Mixins in here
+.custom-btn (@bg, @color) {
+    background: @bg;
+    color: @color;
+    height: 15%;
+    max-width: 80%;
+    display: flex;
+    .centered;
+    border-radius: 10px;
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+}

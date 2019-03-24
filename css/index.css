@@ -1,3 +1,7 @@
+.centered {
+  justify-content: center;
+  align-items: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -168,6 +172,9 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+#dashed-div {
+  border-top: 1px dashed #C0C0C0;
+}
 .nav-bar {
   display: flex;
   width: 100%;
@@ -248,5 +255,15 @@ img {
 }
 .home .content-pick .destination {
   width: 30%;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+}
+.home .content-pick .destination .btn {
+  background: #17A2B8;
+  color: #FFFFFF;
+  height: 15%;
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
