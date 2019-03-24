@@ -1,1 +1,39 @@
 // Navigation Styles here
+.nav-bar {
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+    .h1-style {
+        width: 20%;
+        @media @mobile {
+            width: 100%;
+            text-align: center;
+            padding-top: 10px;
+        }
+    } 
+    .list-item-style {
+        width: 80%;
+        .list-items {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100%;
+            .item {
+                text-decoration: none;
+                padding: 10px;
+                font-size: 1.6rem;
+            }
+            @media @mobile {
+                justify-content: center;
+            }
+        }
+        @media @mobile {
+            width: 100%;
+        }
+    } 
+    @media @mobile {
+        flex-direction: column;
+        .centered;
+        padding: 0;
+    }  
+}
