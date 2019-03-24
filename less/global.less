@@ -43,8 +43,11 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  @media @mobile {
+    max-width: 450px;
+  }
 }
 
 #dashed-div {
-  border-top: 1px dashed @navigation-border;
+  border-top: 2px dashed @navigation-border;
 }
